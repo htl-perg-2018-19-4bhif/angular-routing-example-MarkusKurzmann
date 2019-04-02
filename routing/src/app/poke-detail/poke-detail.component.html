@@ -1,0 +1,5 @@
+<img  class="pic" src="{{pokemon.pic}}">
+<mat-list class="container">
+  <mat-list-item class="name">Name: {{pokemon.name}} </mat-list-item>
+  <mat-list-item class="ability" *ngFor="let ability of pokemon.abilities"> {{ability}} </mat-list-item>
+</mat-list>
